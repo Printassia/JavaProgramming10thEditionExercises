@@ -1,0 +1,19 @@
+package Horsy.com.company;
+
+import java.util.Scanner;
+import java.util.Random;
+
+/*
+Write a program that displays a random uppercase letter using the
+Math.random() method.
+ */
+
+public class Exercise4_16RandomCharacter {
+    public static void main(String[] args) {
+        int startingValue = 65; //A is 65 on the ASCII Table
+        int endingValue = 26; //Z is 90 - 65 = 25 + 1(to include letter Z) note: 26 letters in alphabet
+        char random = (char) (startingValue + Math.random() * endingValue);
+        System.out.println(random);
+    }
+}
+
