@@ -1,0 +1,43 @@
+package Horsy.com.company;
+
+import java.util.Scanner;
+/*
+(Vowel or consonant?) Write a program that prompts the user to enter a letter and
+check whether the letter is a vowel or consonant
+ */
+public class Exercise4_13 {
+    public static void main(String[] args) {
+        System.out.print("Enter a letter: ");
+        Scanner input = new Scanner(System.in);
+        String letter = input.next();
+
+        if (letter.equalsIgnoreCase("A")) System.out.println(letter + " is a vowel");
+        else if (letter.equalsIgnoreCase("B")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("C")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("D")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("E")) System.out.println(letter + " is a vowel ");
+        else if (letter.equalsIgnoreCase("F")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("G")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("H")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("I")) System.out.println(letter + " is a vowel ");
+        else if (letter.equalsIgnoreCase("J")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("K")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("L")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("M")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("N")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("O")) System.out.println(letter + " is a vowel ");
+        else if (letter.equalsIgnoreCase("P")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("Q")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("R")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("S")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("T")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("U")) System.out.println(letter + " is a vowel ");
+        else if (letter.equalsIgnoreCase("V")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("W")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("X")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("Y")) System.out.println(letter + " is a consonant ");
+        else if (letter.equalsIgnoreCase("Z")) System.out.println(letter + " is a consonant ");
+        else System.out.println(letter + "is an invalid input");
+
+    }
+}
