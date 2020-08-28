@@ -3,7 +3,7 @@ package Horsy.com.company;
 import java.util.Scanner;
 
 public class Exercise4_11 {
-    //Hex to Binary
+    //Decimal to Hex
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a decimal value (0 to 15): ");
