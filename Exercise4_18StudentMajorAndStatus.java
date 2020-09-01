@@ -5,15 +5,13 @@ import com.sun.source.tree.IfTree;
 import java.util.Scanner;
 
 /*
- Write a program that prompts the user to enter two
-characters and displays the major and status represented in the
-characters. The first character indicates the major and the second
-is number character 1, 2, 3, 4, which indicates whether a student
-is a freshman, sophomore, junior, or senior. Suppose the
-following characters are used to denote the majors:
+ Write a program that prompts the user to enter two characters and displays the major and status represented in the
+characters. The first character indicates the major and the second is number character 1, 2, 3, 4, 
+which indicates whether a student is a freshman, sophomore, junior, or senior. 
+Suppose the following characters are used to denote the majors:
 M: Mathematics
 C: Computer Science
-I: Information Technology pg. 178
+I: Information Technology 
  */
 public class Exercise4_18StudentMajorAndStatus {
     public static void main(String[] args) {
