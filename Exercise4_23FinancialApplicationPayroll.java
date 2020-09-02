@@ -4,8 +4,7 @@ import java.text.NumberFormat;
 import java.util.Scanner;
 
 /*
-(Financial application: payroll) Write a program that reads the
-following information and prints a payroll statement:
+(Financial application: payroll) Write a program that reads the following information and prints a payroll statement:
 Employee’s name (e.g., Smith)
 Number of hours worked in a week (e.g., 10)
 Hourly pay rate (e.g., 9.75)
@@ -28,9 +27,8 @@ public class Exercise4_23FinancialApplicationPayroll {
         double stateTax = input.nextDouble();
 
         //Calculations
-        double grossPay, federalTaxPercentage, stateTaxPercentage,
-                federalTaxWithholding, stateTaxWithholding,
-                totalDeductions, netPay;
+        double grossPay, federalTaxPercentage, stateTaxPercentage, federalTaxWithholding, stateTaxWithholding, totalDeductions, netPay;
+        
         //Gross Pay
         grossPay = hoursWorked * hourlyRate;
 
@@ -52,7 +50,7 @@ public class Exercise4_23FinancialApplicationPayroll {
         //Net Pay
         netPay = grossPay - totalDeductions;
 
-        //Output/Statement
+        //Output Statement
         System.out.println("Employee Name: " + employeeName);
         System.out.println("Hours Worked: " + hoursWorked);
         System.out.println("Pay Rate: $" + hourlyRate);
@@ -62,6 +60,7 @@ public class Exercise4_23FinancialApplicationPayroll {
                 + "("+federalTaxPercentage+"%): $" + federalTaxWithholding);
         System.out.println("\tState Withholding "
                 + "("+stateTaxPercentage+"%): $" + stateTaxWithholding);
+        
         //String Format: Convert total deductions (double) & output
         String convertTotalDeductionsToString = NumberFormat.getCurrencyInstance().format(totalDeductions);
         System.out.println("\tTotal Deductions: " + convertTotalDeductionsToString);
