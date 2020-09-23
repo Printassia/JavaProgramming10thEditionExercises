@@ -7,7 +7,7 @@ public class Exercise5_5ConvertKilogramsToPoundsAndBack {
         System.out.println("Kilograms    Pounds | Pounds    Kilograms");
 
         //Part I: Kilograms to Pounds & Pounds to Kilograms
-        for (int count = 1, count2 = 20; count < 200 && count2 <= 516; count++, count2++) {
+        for (int count = 1, count2 = 20; count < 200 && count2 <= 516; count +=2, count2 +=5) {
 
             //Convert kilograms to lbs
             double kilogramsToLbs = count * 2.2;
