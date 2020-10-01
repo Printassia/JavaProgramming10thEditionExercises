@@ -26,8 +26,6 @@ public class Exercise5_21 {
         System.out.print("Number of Years: ");
         years = input.nextInt();
 
-
-
         //Header
         System.out.println("Interest Rate \tMonthly Payment \tTotal Payment");
 
@@ -39,9 +37,6 @@ public class Exercise5_21 {
 
             //Compute Monthly interest rate
             double monthlyInterestRate = annualInterestRate / 1200;
-
-            //Month(12) * the year/time
-            double time = 12 * years;
 
             //Monthly Payment Formula
             monthlyPaymentFormula = loanAmount * monthlyInterestRate / (1-1
