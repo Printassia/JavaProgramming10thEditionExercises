@@ -9,7 +9,7 @@ in number of years and displays the monthly and total payments
 for each interest rate starting from 5% to 8%, with an increment of 1/8.
  */
 
-public class Exercise5_21 {
+public class Exercise5_21FinancialApplication {
     public static void main(String[] args) {
 
         int loanAmount, years;
