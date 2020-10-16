@@ -11,7 +11,7 @@ the monthly interest. Write a program that lets the user enter the loan amount,
 number of years, and interest rate and displays the amortization schedule for the loan.
  */
 
-public class Exercise5_22 {
+public class Exercise5_22FinancialApplicationLoanAmortizationSchedule {
     public static void main(String[] args) {
 
         double monthlyInterestRate, monthlyPaymentFormula,
