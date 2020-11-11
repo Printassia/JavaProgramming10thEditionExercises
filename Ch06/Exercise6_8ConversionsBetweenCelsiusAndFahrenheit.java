@@ -42,7 +42,7 @@ public class Exercise6_8ConversionsBetweenCelsiusAndFahrenheit {
 
         //Display header
         System.out.println("Celsius\t\t\tFahrenheit | Fahrenheit\t\t\tCelsius");
-
+        System.out.println("--------------------------------------------------------");
 
         for (celsiusToFahrenheit = 40.0, fahrenheitToCelsius = 120.0;
              celsiusToFahrenheit >= 31.0 && fahrenheitToCelsius >= 30.0;
