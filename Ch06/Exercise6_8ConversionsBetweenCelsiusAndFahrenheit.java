@@ -1,7 +1,5 @@
 package Horsy.com.company.Ch06;
 
-import java.util.Scanner;
-
 /*
 (Conversions between Celsius and Fahrenheit) Write a class that contains the following two methods:
     Convert from Celsius to Fahrenheit
