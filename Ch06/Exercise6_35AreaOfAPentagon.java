@@ -1,5 +1,15 @@
 package Horsy.com.company.Ch06;
 
+/*
+(Geometry: area of a pentagon) The area of a pentagon can be computed using the
+following formula:
+    Area = 5 * s2 / 4 * tan(PI/5)
+Write a method that returns the area of a pentagon using the following header:
+public static double area(double side)
+Write a main method that prompts the user to enter the side of a pentagon and
+displays its area
+ */
+
 import java.util.Scanner;
 
 public class Exercise6_35AreaOfAPentagon {
