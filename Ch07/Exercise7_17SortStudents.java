@@ -47,38 +47,3 @@ public class Exercise7_17SortStudents {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-//        int minimumScore = studentScore[0];
-//        for (int i = 0; i < totalNumberOfStudents.length; i++){
-//            if (totalNumberOfStudents[i] < minimumScore){
-//                minimumScore = totalNumberOfStudents[i];
-//            }
-//
-//            System.out.println(studentName + " " + minimumScore);
-//        }
-
-
-    //        double min = numbers[0];
-//        for (int x = 0; x < numbers.length; x++){
-//            if (numbers[x] < min)
-//                min = numbers[x];
-//        }
-//        System.out.println("The minimum element in array is " +min);
-
-
-
-
