@@ -22,9 +22,7 @@ public class Exercise7_17SortStudents {
         //Array to store the students score
         int[] studentScore = new int[numberOfStudents];
 
-
         //For Loop to input the students name in an array of String
-
         for (int i = 0;
              i < studentName.length && i < studentScore.length;
              i++) {
