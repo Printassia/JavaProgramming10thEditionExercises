@@ -94,14 +94,11 @@ class Fan {
         this.color = color;
     }
 
-
     public String toString() {
-        if (speed == 1 && on) return "SLOW " + color + " " + radius;
-        else if (speed == 2 && on) return "MEDIUM " + color + " " + radius;
-        else if (speed == 3 && on) return "FAST " + color + " " + radius;
-        else if(!on){
-         return color + " " + radius + " fan is off";
-        }
+        if (getSpeed() == 1 && on) return "SLOW " + getColor() + " " + getRadius();
+        else if (getSpeed() == 2 && on) return "MEDIUM " + getColor() + " " + getRadius();
+        else if (getSpeed() == 3 && on) return "FAST " + getColor() + " " + getRadius();
+        else if(!isOn()) return getColor() + " " + getRadius() + " fan is off";
         return "";
     }
 }
