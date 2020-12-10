@@ -53,20 +53,22 @@ public class Exercise9_7Account {
 }
 
 class Account {
-    private int id = 0;
-    private double balance = 0;
-    private double annualInterestRate = 0;
+    private int id;
+    private double balance;
+    private double annualInterestRate;
     private Date dateCreated = new Date();
 
     /* A no-arg constructor that creates a default account.*/
     public Account() {
+        this.id = 0;
+        this.balance = 0;
+        this.annualInterestRate = 0;
     }
 
     /* A constructor that creates an account with the specified id and initial balance. */
     public Account(int id, int balance) {
         this.id = id;
         this.balance = balance;
-        this.annualInterestRate = annualInterestRate;
     }
 
     /* The accessor method for id */
